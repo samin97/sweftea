@@ -1,0 +1,98 @@
+name: swfteaproject
+description: A new Flutter project.
+publish_to: 'none'
+version: 3.0.78+4
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^3.0.0
+  get: ^3.4.0
+  http: ^0.12.2
+  localstorage: ^3.0.2+5
+  flutter_pusher: ^1.0.2
+  ##hexcolor: ^1.0.4
+  flutter_icons: ^1.1.0
+  scrollable_positioned_list: ^0.1.7
+  smooth_page_indicator: ^0.2.0
+  image_picker:
+  marquee_widget: ^0.8.0
+  dartz: ^0.8.9
+  flutter_plugin_android_lifecycle: ^1.0.6
+  flutter_html: ^1.0.0
+  url_launcher: ^5.5.0
+  # firebase_admob: ^0.9.3+4
+  avataaar_image: ^1.0.8
+  flutter_svg: ^0.18.1
+  intl: ^0.16.1
+  audioplayers:
+  ##flutter_audio_recorder:
+  uuid: 2.2.0
+  cupertino_icons: ^0.1.3
+  slide_countdown_clock: ^1.0.3
+  package_info: ^0.4.0+16
+  ##image_downloader: ^0.20.1
+  fluttertoast:
+  shared_preferences:
+  photo_manager: ^0.5.8
+  webview_flutter:
+  # keyboard_visibility: 
+  flutter_keyboard_visibility: 
+
+  # firebase_messaging: ^4.0.0+1
+  flutter_local_notifications: ^1.4.4+1
+  overlay_support: ^1.0.5
+  # firebase_core: 
+  # image_picker_saver: ^0.3.0
+  ##save_in_gallery: ^0.1.3
+  cached_network_image: 
+  ##gallery_saver: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_name: "^0.0.1"
+  flutter_launcher_icons: "^0.7.3"
+flutter_launcher_name:
+  name: "SwfTea"
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/launcher.png"
+
+module:
+  androidX: true 
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: MissionFont
+      fonts:
+      - asset: assets/fonts/mission.otf
+  assets:
+    - assets/images/
+    - assets/images/googlelogo.png
+    - assets/images/fblogo.jpg
+    - assets/images/twitterlogo.jpg
+    - assets/images/ulogo.png
+    - assets/images/ulogo.jpg
+    - assets/images/login.png
+    - assets/images/logo.png
+    - assets/images/powered_by.png
+    - assets/images/Online.png
+    - assets/images/Offline.png
+    - assets/images/watch_and_earn.png
+    - assets/images/badges/Admin.png
+    - assets/images/badges/Global_Admin.png
+    - assets/images/badges/Legends.png
+    - assets/images/badges/Mentor.png
+    - assets/images/badges/Mentor_Head.png
+    - assets/images/badges/Merchant.png
+    - assets/images/badges/SeniorProfile.png
+    - assets/images/collected.png
+    - assets/images/icons/check.png
+    - assets/images/icons/100.png
+    - assets/images/icons/start.png
